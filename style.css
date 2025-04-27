@@ -14,7 +14,11 @@
 
 /* Add your custom styles below */
 
-
+.wc-block-components-notice-banner.is-info {
+  background-color: #101811;
+  color: #fff;
+  border: 1px solid #101811;
+}
 .woocommerce-account .woocommerce .woocommerce-MyAccount-navigation li.is-active a::before {
   content: "=> ";
 }
