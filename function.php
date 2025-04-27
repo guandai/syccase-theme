@@ -61,3 +61,6 @@ function syccase_child_gutenberg_support() {
     ));
 }
 add_action('after_setup_theme', 'syccase_child_gutenberg_support');
+
+
+add_theme_support( 'block-templates' );

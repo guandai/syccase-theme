@@ -1,0 +1,34 @@
+<!-- wp:group {"tagName":"section","className":"archive-page"} -->
+<section class="archive-page">
+  <!-- wp:archive-title /--> <!-- Display the archive title (e.g., category, author, date) -->
+
+  <!-- wp:group {"className":"archive-filter"} -->
+  <div class="archive-filter">
+      <!-- wp:category-list /--> <!-- Display a list of categories for filtering -->
+      <!-- wp:tag-list /--> <!-- Display a list of tags for filtering -->
+  </div>
+  <!-- /wp:group -->
+
+  <!-- wp:group {"className":"archive-posts"} -->
+  <div class="archive-posts">
+      <!-- wp:query {"queryId":1,"postType":"post","postsPerPage":10} -->
+      <!-- wp:post-template -->
+      <article class="post-item">
+          <!-- wp:post-featured-image /--> <!-- Display the post's featured image -->
+          <h2><a href="<wp:post-url />"><wp:post-title /></a></h2> <!-- Post title as a link -->
+          <!-- wp:post-excerpt /--> <!-- Display the post excerpt -->
+          <!-- wp:post-date /--> <!-- Display the post date -->
+          <a href="<wp:post-url />">Read more</a>
+      </article>
+      <!-- /wp:post-template -->
+      <!-- /wp:query -->
+  </div>
+  <!-- /wp:group -->
+
+  <!-- wp:group {"className":"pagination"} -->
+  <div class="pagination">
+      <!-- wp:post-navigation /--> <!-- Pagination navigation -->
+  </div>
+  <!-- /wp:group -->
+</section>
+<!-- /wp:group -->
