@@ -1,16 +1,16 @@
 /*
- Theme Name:   Storefront SycCase Child
+ Theme Name:   kiosko SycCase Child
  Theme URI:    https://github.com/guandai/syccase-theme
- Description:  A child theme for the Storefront theme.
+ Description:  A child theme for the kiosko theme.
  Author:       Twindai
  Author URI:   https://twindai.com
  Template:     kiosko
  Version:      1.0.0
- Text Domain:  storefront-child
+ Text Domain:  kiosko-child
 */
 
 /* Import the parent theme's styles */
-/* @import url("../storefront/style.css"); */
+/* @import url("../kiosko/style.css"); */
 
 /* Add your custom styles below */
 
