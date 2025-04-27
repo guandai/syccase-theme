@@ -1,0 +1,36 @@
+<!-- wp:group {"tagName":"article","className":"single-post"} -->
+<article class="single-post">
+  <!-- wp:post-title /--> <!-- Display the post title -->
+  
+  <!-- wp:post-date /--> <!-- Display the post publication date -->
+  
+  <!-- wp:post-author /--> <!-- Display the post author -->
+  
+  <!-- wp:post-featured-image /--> <!-- Display the post's featured image -->
+
+  <!-- wp:post-categories /--> <!-- Display post categories -->
+  
+  <!-- wp:post-tags /--> <!-- Display post tags -->
+
+  <!-- wp:post-content /--> <!-- Display the content of the post -->
+
+  <!-- wp:group {"className":"related-posts"} -->
+  <div class="related-posts">
+      <!-- wp:query {"queryId":1,"postType":"post","postsPerPage":3} -->
+      <!-- wp:post-template -->
+      <article>
+          <!-- wp:post-title /--> <!-- Related post title -->
+      </article>
+      <!-- /wp:post-template -->
+      <!-- /wp:query -->
+  </div>
+  <!-- /wp:group -->
+
+  <!-- wp:group {"className":"post-meta"} -->
+  <div class="post-meta">
+      <!-- wp:post-comments /--> <!-- Display comments section -->
+      <!-- wp:post-navigation /--> <!-- Navigation for next/previous posts -->
+  </div>
+  <!-- /wp:group -->
+</article>
+<!-- /wp:group -->
