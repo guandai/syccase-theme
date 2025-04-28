@@ -73,3 +73,8 @@ main.hide,
   border-radius: 4px;
   font-size: 14px;
 }
+
+
+.wc-block-components-product-price {
+  min-height: 22px;
+}
