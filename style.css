@@ -22,3 +22,7 @@
 .woocommerce-account .woocommerce .woocommerce-MyAccount-navigation ul li.is-active a::before {
   content: "=> ";
 }
+
+.woocommerce-account .woocommerce .woocommerce-MyAccount-navigation ul li.is-active {
+  background-color: #111111;
+}
