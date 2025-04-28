@@ -10,6 +10,6 @@ function syccase_child_enqueue_styles() {
     wp_enqueue_style('syccase-child-style', get_stylesheet_directory_uri() . '/style.css', array('kiosko-parent-style'), wp_get_theme()->get('Version'));
     
     // Enqueue parent theme's style.css
-    // wp_enqueue_style('kiosko-parent-style', get_template_directory_uri() . '/style.css');
+    wp_enqueue_style('kiosko-parent-style', get_template_directory_uri() . '/style.css');
 }
 add_action('wp_enqueue_scripts', 'syccase_child_enqueue_styles');
