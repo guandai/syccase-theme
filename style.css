@@ -55,7 +55,7 @@ main.hide,
 .wc-block-components-text-input input[type=tel], 
 .wc-block-components-text-input input[type=text], 
 .wc-block-components-text-input input[type=url]  {
-  background-color: #181818;
-  color: #FFFFFF;
-  border: 1px solid #181818;
+  background-color: #C6C6C6;
+  color: #000000;
+  border: 1px solid #C6C6C6;
 }
