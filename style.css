@@ -59,3 +59,10 @@ main.hide,
   color: #000000;
   border: 1px solid #C6C6C6;
 }
+
+
+select.wc-blocks-components-select__select {
+  background-color: #C6C6C6;
+  color: #000000;
+  border: 1px solid #C6C6C6;
+}
