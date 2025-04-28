@@ -15,20 +15,19 @@ function syccase_child_enqueue_styles() {
 add_action('wp_enqueue_scripts', 'syccase_child_enqueue_styles');
 
 
-function change_homepage_template($template) {
-    if (is_front_page()) {
-        // Check if a static page is set for the homepage
+function my_custom_homepage_template($template) {
+    if ( is_front_page() ) {
+        // Get the homepage ID
         $homepage_id = get_option('page_on_front');
-        
-        // Get the template assigned to the homepage
+
+        // Get the selected template for the page
         $homepage_template = get_post_meta($homepage_id, '_wp_page_template', true);
-        
-        // If the homepage template is not set to 'FrontPage', use that template
-        if ($homepage_template && $homepage_template !== 'front-page.php') {
+
+        // If a template is set, use it, otherwise fall back to the default
+        if (!empty($homepage_template) && $homepage_template !== 'front-page.php') {
             $template = locate_template($homepage_template);
         }
     }
     return $template;
 }
-
-add_filter('template_include', 'change_homepage_template');
+add_filter('template_include', 'my_custom_homepage_template');
