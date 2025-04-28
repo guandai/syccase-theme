@@ -36,3 +36,7 @@
 .wp-block-post-title {
   color: #FFFFFF;
 }
+
+.hide {
+  display: none;
+}
