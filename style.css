@@ -60,9 +60,16 @@ main.hide,
   border: 1px solid #C6C6C6;
 }
 
-
+.woocommerce-ordering select,
 .wc-block-components-main select.wc-blocks-components-select__select {
   background-color: #C6C6C6;
   color: #000000;
   border: 1px solid #C6C6C6;
+}
+
+.woocommerce-ordering select {
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 4px;
+  font-size: 14px;
 }
