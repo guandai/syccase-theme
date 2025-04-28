@@ -33,3 +33,11 @@ function my_custom_homepage_template($template) {
 }
 
 add_filter('template_include', 'my_custom_homepage_template');
+
+
+
+// Add support for custom page templates
+function kiosko_add_page_template_support() {
+    add_post_type_support('page', 'template');
+}
+add_action('init', 'kiosko_add_page_template_support');
