@@ -15,14 +15,15 @@
 /* Add your custom styles below */
 
 .wc-block-components-notice-banner.is-info {
-  background-color: #111111;
+  background-color: #181818;
   color: #fff;
-  border: 1px solid #111111;
+  border: 1px solid #181818;
 }
 .woocommerce-account .woocommerce .woocommerce-MyAccount-navigation ul li.is-active a::before {
-  content: "=> ";
+  content: "";
 }
 
 .woocommerce-account .woocommerce .woocommerce-MyAccount-navigation ul li.is-active {
-  background-color: #111111;
+  background-color: #181818;
+  padding-left: 12px;
 }
