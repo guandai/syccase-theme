@@ -19,6 +19,6 @@
   color: #fff;
   border: 1px solid #111111;
 }
-.woocommerce-account .woocommerce .woocommerce-MyAccount-navigation li.is-active a::before {
+.woocommerce-account .woocommerce li .woocommerce-MyAccount-navigation li.is-active a::before {
   content: "=> ";
 }
