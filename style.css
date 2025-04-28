@@ -61,7 +61,7 @@ main.hide,
 }
 
 
-select.wc-blocks-components-select__select {
+.wc-block-components-main select.wc-blocks-components-select__select {
   background-color: #C6C6C6;
   color: #000000;
   border: 1px solid #C6C6C6;
