@@ -27,3 +27,8 @@
   background-color: #181818;
   padding-left: 12px;
 }
+
+
+h1.wp-block.wp-block-post-title.block-editor-block-list__block.editor-post-title.editor-post-title__input.rich-text {
+  color: #FFFFFF;
+}
