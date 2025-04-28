@@ -37,6 +37,7 @@
   color: #FFFFFF;
 }
 
+main.hide,
 .hide {
   display: none;
 }
