@@ -110,4 +110,5 @@ main.hide,
 .wp-block-video.shop-video video {
   height: 500px;
   overflow: hidden;
+  object-fit: cover;
 }
