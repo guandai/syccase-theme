@@ -114,11 +114,8 @@ main.hide,
 }
 
 .nova-animate {
-  width: 100px;
-  height: 100px;
-  background: red;
-  position: relative;
-  animation: mymove 5s infinite;
+  transition-duration: 0.7s;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
 }
 
 @keyframes mymove {
