@@ -37,9 +37,10 @@
   color: #FFFFFF;
 }
 
+body .is-layout-flex.hide
 main.hide,
 .hide {
-  display: none;
+  display: none !important;
 }
 
 
