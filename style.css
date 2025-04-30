@@ -102,12 +102,11 @@ main.hide,
   transition-timing-function: cubic-bezier(.4,0,.2,1);
 }
 
-.wp-block-video.shop-video {
-    display: flex;
-    justify-content: center;  /* Center horizontally */
-    align-items: center;      /* Center vertically */
-    height: 100vh;
+
+.shop-animate-in-view {
+  width: 100%;
 }
+
 .wp-block-video.shop-video video {
   height: 500px;
   overflow: hidden;
