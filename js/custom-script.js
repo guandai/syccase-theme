@@ -2,11 +2,12 @@ document.addEventListener("DOMContentLoaded", function () {
   console.log(`1234`);
   const ul = document.querySelector("syccase-shop-products ul.wp-block-post-template");
   if (!ul) return;
-
+  console.log(`123432`);
   const items = Array.from(ul.querySelectorAll("li"));
 
   // Helper to extract the first tag slug from class list
   function getFirstTag(li) {
+    console.log(`12343211`, li);
       const classes = li.className.split(/\s+/);
       const tagClass = classes.find(c => c.startsWith('product_tag-'));
       return tagClass ? tagClass.replace('product_tag-', '').toLowerCase() : '';
