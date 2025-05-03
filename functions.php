@@ -25,13 +25,29 @@ add_filter('posts_orderby', function($orderby, $query) {
 
 
 
-function mytheme_enqueue_custom_js() {
+// function mytheme_enqueue_custom_js() {
+//     wp_enqueue_script(
+//         'my-custom-script', // Handle
+//         get_stylesheet_directory_uri() . '/js/custom-script.js', // Path to the JS file
+//         array(), // Dependencies (e.g., array('jquery') if needed)
+//         null, // Version (optional, use `filemtime` for cache busting if desired)
+//         true // Load in footer
+//     );
+// }
+// add_action('wp_enqueue_scripts', 'mytheme_enqueue_custom_js');
+
+
+add_action('wp_enqueue_scripts', function () {
+    $uri = get_stylesheet_directory_uri() . '/js/custom-script.js';
+
+    // Output the full URL in a comment for inspection
+    echo "<!-- JS enqueue test: $uri -->";
+
     wp_enqueue_script(
-        'my-custom-script', // Handle
-        get_stylesheet_directory_uri() . '/js/custom-script.js', // Path to the JS file
-        array(), // Dependencies (e.g., array('jquery') if needed)
-        null, // Version (optional, use `filemtime` for cache busting if desired)
-        true // Load in footer
+        'syccase-custom-script',
+        $uri,
+        array(),
+        null,
+        true
     );
-}
-add_action('wp_enqueue_scripts', 'mytheme_enqueue_custom_js');
+});
