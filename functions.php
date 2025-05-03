@@ -28,7 +28,7 @@ add_filter('posts_orderby', function($orderby, $query) {
 function mytheme_enqueue_custom_js() {
     wp_enqueue_script(
         'my-custom-script', // Handle
-        get_template_directory_uri() . '/js/custom-script.js', // Path to the JS file
+        get_stylesheet_directory_uri() . '/js/custom-script.js', // Path to the JS file
         array(), // Dependencies (e.g., array('jquery') if needed)
         null, // Version (optional, use `filemtime` for cache busting if desired)
         true // Load in footer
