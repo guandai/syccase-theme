@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+  console.log(`1234`);
   const ul = document.querySelector("syccase-shop-products ul.wp-block-post-template");
   if (!ul) return;
 
