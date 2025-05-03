@@ -15,13 +15,10 @@ function syccase_child_enqueue_styles() {
 add_action('wp_enqueue_scripts', 'syccase_child_enqueue_styles');
 
 
-add_filter('posts_orderby', 'sort_products_by_real_slug', 10, 2);
-function sort_products_by_real_slug($orderby, $query) {
-    if (is_admin() || !$query->is_main_query()) return $orderby;
-    
-    if ((is_shop() || is_product_category() || is_product_tag()) && is_post_type_archive('product')) {
-        global $wpdb;
-        return "{$wpdb->posts}.post_name ASC";
-    }
-    return $orderby;
-}
+
+add_filter('posts_orderby', function($orderby, $query) {
+    if (is_admin() || !$query->is_main_query() || !is_page('syccase-shop')) return $orderby;
+
+    global $wpdb;
+    return "{$wpdb->posts}.post_name ASC";
+}, 10, 2);
