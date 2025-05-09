@@ -144,11 +144,11 @@ main.hide,
 } */
 
 
-.wp-block-button__link.buy-syc-one .wp-block-button__link {
+.wp-block-button.buy-syc-one .wp-block-button__link {
   background-color: #000000;
   color: white;
 }
 
-.wp-block-button__link.buy-syc-one .wp-block-button__link:hover {
+.wp-block-button.buy-syc-one .wp-block-button__link:hover {
   background-color: #3b3b3b;
 }
