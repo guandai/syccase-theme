@@ -107,18 +107,20 @@ main.hide,
   width: 100%;
 }
 
+
 .wp-block-video.shop-video video {
   height: 500px;
   overflow: hidden;
   object-fit: cover;
 }
 
+
+
+/*  account hide */
 .woocommerce-MyAccount-navigation-link--downloads,
-.woocommerce-MyAccount-navigation-link--edit-address,
 .woocommerce-MyAccount-navigation-link--dashboard {
   display: none;
 }
-
 
 
 .nova-animate {
