@@ -117,7 +117,7 @@ main.hide,
 
 /* the row in header template
 https://syccase.co.uk/wp-admin/site-editor.php?p=%2Fwp_template_part%2Fsyccase-theme%2F%2Fheader&canvas=edit&focusMode=true */
-.header-right-row {
+.wp-block-group.header-right-row {
   gap: 0;
 }
 
