@@ -156,3 +156,9 @@ https://syccase.co.uk/wp-admin/site-editor.php?p=%2Fwp_template_part%2Fsyccase-t
 .wp-block-site-title.site-title:hover {
    text-decoration: none;
 }
+
+
+/* currency  move up  */
+div.woocommerce-multi-currency.wmc-sidebar {
+  top: 20% !important
+}
