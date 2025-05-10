@@ -120,10 +120,7 @@ main.hide,
 }
 
 
-.wc-block-mini-cart__button {
-  padding: 0;
 
-}
 .nova-animate {
   transition-duration: 0.7s;
   transition-timing-function: cubic-bezier(.4,0,.2,1);
