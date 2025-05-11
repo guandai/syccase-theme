@@ -147,7 +147,9 @@ https://syccase.co.uk/wp-admin/site-editor.php?p=%2Fwp_template_part%2Fsyccase-t
 .wp-block-site-title.site-title:hover {
    text-decoration: none;
 } */
-
+.wp-block-woocommerce-product-gallery.wc-block-product-gallery {
+  margin: 0;
+}
 .wc-block-product-gallery-large-image .wc-block-product-gallery-large-image__wrapper {
   max-height: 510px;
 }
