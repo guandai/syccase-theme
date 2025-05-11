@@ -139,20 +139,15 @@ https://syccase.co.uk/wp-admin/site-editor.php?p=%2Fwp_template_part%2Fsyccase-t
 }
 
 
-
-/* 
-.coming-soon-label {
-  font-weight: bold;
-  color: #cc0000;
-  font-size: 1rem;
-} */
-
-
-
-.wp-block-button.buy-syc-one .wp-block-button__link:hover {
+/* home page hover color */
+/* .wp-block-button.buy-syc-one .wp-block-button__link:hover {
   background-color: #3b3b3b;
 }
 
 .wp-block-site-title.site-title:hover {
    text-decoration: none;
+} */
+
+.wc-block-product-gallery-large-image .wc-block-product-gallery-large-image__wrapper {
+  max-height: 510px;
 }
