@@ -140,13 +140,13 @@ https://syccase.co.uk/wp-admin/site-editor.php?p=%2Fwp_template_part%2Fsyccase-t
 
 
 /* home page hover color */
-/* .wp-block-button.buy-syc-one .wp-block-button__link:hover {
+.wp-block-button.buy-syc-one .wp-block-button__link:hover {
   background-color: #3b3b3b;
 }
 
 .wp-block-site-title.site-title:hover {
    text-decoration: none;
-} */
+}
 
 /* #product page */
 .wp-block-woocommerce-product-gallery.wc-block-product-gallery {
