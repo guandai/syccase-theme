@@ -35,3 +35,6 @@ add_action('wp_enqueue_scripts', function () {
         true
     );
 });
+
+
+do_shortcode('[ultimatemember_social_login]'); 
