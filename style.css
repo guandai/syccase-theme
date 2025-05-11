@@ -141,12 +141,13 @@ https://syccase.co.uk/wp-admin/site-editor.php?p=%2Fwp_template_part%2Fsyccase-t
 
 /* home page hover color */
 .wp-block-button.buy-syc-one .wp-block-button__link:hover {
-  background-color: #3b3b3b;
+  background-color: #3b3b3b !important;
 }
 
 .wp-block-site-title.site-title:hover {
    text-decoration: none;
 }
+
 
 /* #product page */
 .wp-block-woocommerce-product-gallery.wc-block-product-gallery {
@@ -155,7 +156,6 @@ https://syccase.co.uk/wp-admin/site-editor.php?p=%2Fwp_template_part%2Fsyccase-t
 .wc-block-product-gallery-large-image .wc-block-product-gallery-large-image__wrapper {
   max-height: 510px;
 }
-
 
 .wc-block-product-gallery-dialog__close-button {
   line-height: 4px;
