@@ -40,4 +40,7 @@ add_action('wp_enqueue_scripts', function () {
 do_shortcode('[ultimatemember_social_login]'); 
 
 
-
+// change popularity of syc one to top
+add_action('init', function() {
+    update_post_meta(220, 'total_sales', 999); // Product ID 1234 will now appear more popular
+});
