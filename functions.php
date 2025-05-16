@@ -38,3 +38,6 @@ add_action('wp_enqueue_scripts', function () {
 
 
 do_shortcode('[ultimatemember_social_login]'); 
+
+
+
